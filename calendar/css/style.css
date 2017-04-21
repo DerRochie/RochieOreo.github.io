@@ -1,0 +1,86 @@
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: #404099;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.flex-vertically {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-horizontally {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+h1 {
+  color: white;
+}
+
+.apple-calendar-icon {
+  width: 8rem;
+  height: 8rem;
+  margin-right: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+  background-color: white;
+}
+
+.apple-calendar-icon .weekday {
+  color: red;
+  font-size: 1rem;
+}
+
+.apple-calendar-icon .day {
+  font-size: 5rem;
+}
+
+.google-calendar-icon {
+  width: 8rem;
+  height: 7rem;
+  margin-left: 0.5rem;
+  border-top: 1rem solid #d4d4d4;
+  border-radius: 1rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+  z-index: 0;
+  background-color: #d4d4d4;
+}
+
+.google-calendar-icon .page {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 1rem;
+  background-image: repeating-linear-gradient( 180deg, #3664cf 0%, #3664cf 50%, #4989f4 50%, #4989f4 100%);
+}
+
+.google-calendar-icon p.day {
+  padding-top: 0.125em;
+  color: white;
+  font-size: 5em;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
